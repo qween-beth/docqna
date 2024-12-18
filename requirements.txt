@@ -1,0 +1,10 @@
+llama-index-core
+groq
+anthropic
+sklearn
+streamlit
+spacy
+sentence-transformers
+nltk
+python-docx 
+PyPDF2

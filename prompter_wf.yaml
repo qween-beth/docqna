@@ -1,0 +1,14 @@
+workflow:
+  id: rag-wf-9019bea34d
+  nodes:
+  - id: rag-prompter
+    model:
+      model_id: rag-prompter-9019bea34d
+      model_version_id: f89eed87132446cbaedba1b986a05735
+  - id: llm
+    model:
+      app_id: completion
+      model_id: claude-3.5-sonnet
+      user_id: anthropic
+    node_inputs:
+    - node_id: rag-prompter
