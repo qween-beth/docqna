@@ -1,7 +1,7 @@
 llama-index-core
 groq
 anthropic
-sklearn
+scikit-learn
 streamlit
 spacy
 sentence-transformers
